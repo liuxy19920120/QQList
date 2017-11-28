@@ -1,0 +1,117 @@
+body,html{
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.header{
+	height: 1.5rem;
+	background: url('../img/header.png');
+	background-size: cover;
+}
+#content{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top:1.5rem;
+	bottom:1.6rem ;
+	background: #282828;
+	overflow: hidden;
+}
+.main{
+	min-height: 100%;
+	background: #fff;
+}
+.list li{
+	height: 2.29rem;
+	border-bottom: 1px solid #eaedee;
+}
+.swiper{
+	height: 100%;
+	width: 20.18rem;
+}
+.swiper .info{
+	float: left;
+	height: 2.29rem;
+	box-sizing: border-box;
+	padding: .27rem .42rem;
+	width: 10.8rem;
+}
+.avatar{
+	width: 1.75rem;
+	height: 1.75rem;
+	background:url('../img/avatar/avatar0.jpg') no-repeat 
+	center center;
+	background-size: contain;
+	border-radius: 50%;
+	float: left;
+}
+.desc{
+	margin-left: .47rem;
+	float: left;
+	width: 6rem;
+}
+.desc p{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.desc p:nth-of-type(1){
+	font:.53rem/1rem "微软雅黑";
+	color: #000;
+}
+.desc p:nth-of-type(2){
+	font:.4rem/.6rem "微软雅黑";
+	color: #ccc;
+}
+.btns{
+	float: left;
+	height: 100%;
+}
+.btns button{
+	padding:0 .66rem;
+	height: 100%;
+	text-align: center;
+	font:.47rem/2.29rem;
+	color: #fff;
+}
+.btns button:nth-child(1){
+	background: #c7c7cd;
+}
+.btns button:nth-child(2){
+	background: #ff9d00;
+}
+.btns button:nth-child(3){
+	background: red;
+}
+.tips{
+	float: right;
+	padding-top:.2rem;
+}
+.tips .time{
+	font-size: 0.35rem;
+	line-height: 0.75rem;
+	color: #ccc;
+	display: block;
+}
+.tips .count{
+	width: 1.1rem;
+	height: .70rem;
+	font-size: 0.35rem;
+	line-height: 0.7rem;
+	color: #fff;
+	background: #f74c31;
+	border-radius: .2rem;
+	display: block;
+	text-align: center;
+}
+.footer{
+	height:1.6rem;
+	width: 100%;
+	border-top:1px solid #eaedee;
+	background: url('../img/footer.png');
+	background-size: contain;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+

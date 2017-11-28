@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#box{
+				height: 100px;
+				width: 100px;
+				background: red;
+				transform: translateX(0)
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			
+		</div>
+		<script type="text/javascript">
+			box.addEventListener('click',function(){
+				this.style.transform = 'translateX(100px)'
+			})
+		</script>
+	</body>
+</html>
